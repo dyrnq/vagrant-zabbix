@@ -4,15 +4,15 @@
 ## start vms
 
 ```bash
-vagrant up z1 z1 z1 z1
+vagrant up z1 z2 z3 z4
 ```
 
-| vm | ip            | install                                    |
-|----|---------------|--------------------------------------------|
-| z1 | 192.168.28.21 | docker,zabbix-server,zabbix-web,postgres14 |
-| z2 | 192.168.28.22 | docker,zabbix-agent                        |
-| z3 | 192.168.28.23 | docker,zabbix-agent                        |
-| z4 | 192.168.28.24 | docker,zabbix-agent                        |
+| vm | ip            | install                                       |
+|----|---------------|-----------------------------------------------|
+| z1 | 192.168.28.21 | docker, zabbix-server, zabbix-web, postgres14 |
+| z2 | 192.168.28.22 | docker, zabbix-agent                          |
+| z3 | 192.168.28.23 | docker, zabbix-agent                          |
+| z4 | 192.168.28.24 | docker, zabbix-agent                          |
 
 
 ## deploy-zabbix
